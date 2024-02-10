@@ -249,14 +249,15 @@ body{
 /* ---------contact--------- */
 .col{
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    justify-content: space-between;
 }
+
 .contact-left{
-    flex-basis: 50%;
+    flex-basis: 35%;
 }
 .contact-right{
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 .container{
     display: flex;
@@ -319,6 +320,11 @@ form .btn2{
 .copyright i{
     color: #ff004f;
 }
+#msg{
+    color: #61b752;
+    margin-top: -20px;
+    display: block;
+}
 
 
 /* ------------css for mobile devices----------- */
@@ -379,6 +385,10 @@ nav .fa-solid{
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
+    }
+    .col{
+        display: flex;
+        flex-direction: column;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
