@@ -15,7 +15,7 @@ body{
     #header{
         width: 100%;
         height: 100vh;
-        background-image: url(images/background.png);
+        background-image: url(images/piyush.png);
         background-size: cover;
         background-position: center;
 
@@ -396,4 +396,11 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+}
+#piyushdiv{
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
